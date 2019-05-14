@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" afterDir="false" />
-    </list>
+    <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/Nice String/Task/.gradle/" />
@@ -44,109 +41,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="193">
-                  <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask6ParetoPrinciple.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="85">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar!/kotlin/collections/CollectionsKt.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="205" column="59" selection-start-line="205" selection-start-column="59" selection-end-line="205" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar!/kotlin/kotlin.kotlin_builtins">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask4SmartPassengers.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState />
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState />
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask5TheMostFrequentTripDurationPeriod.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="4896">
-                  <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask2FaithfulPassengers.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState />
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask1FakeDrivers.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState />
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiPark.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="357">
-                  <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+                <MainEditorState relative-caret-position="425">
+                  <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -369,9 +265,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 22h 07m 08s.xml">
-      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 41m 53s.xml">
       <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
     </history-entry>
@@ -399,12 +292,14 @@
     <history-entry file="TestTask5TheMostFrequentTripDurationPeriod - 2019.05.14 at 22h 53m 07s.xml">
       <configuration name="TestTask5TheMostFrequentTripDurationPeriod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod - 2019.05.14 at 22h 57m 05s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27831715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27831715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,7 +308,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49838188" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,12 +318,12 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50161815" side_tool="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32871974" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4975728" weight="0.3298731" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4975728" visible="true" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Task" order="4" weight="0.32928804" />
+      <window_info active="true" anchor="right" id="Task" order="4" visible="true" weight="0.32928804" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -558,8 +453,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="193">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+            <MainEditorState relative-caret-position="425">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </MainEditorState>
           </EduEditorState>
         </state>
