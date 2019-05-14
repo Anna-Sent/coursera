@@ -41,8 +41,8 @@ fun TaxiPark.findFrequentPassengers(driver: Driver): Set<Passenger> =
 fun TaxiPark.findSmartPassengers(): Set<Passenger> =
         allPassengers.associate { passenger -> passenger to findAllTrips(passenger) }
                 .filter { (_, trips) ->
-                    val pair = trips.partition { trip -> trip.discount != null }
-                    pair.first.size > pair.second.size
+                    val (tripsWithDiscount, tripsNoDiscount) = trips.partition { trip -> trip.discount != null }
+                    tripsWithDiscount.size > tripsNoDiscount.size
                 }
                 .map { (passenger, _) -> passenger }
                 .toSet()
@@ -60,5 +60,21 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  * Check whether 20% of the drivers contribute 80% of the income.
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
-    TODO()
+    return findIncomeOf20PercentDrivers() / findTotalIncome() >= 0.8
+}
+
+fun TaxiPark.findIncomeOf20PercentDrivers(): Double {
+    return allDrivers.map { driver -> findIncome(driver) }
+            .sortedByDescending { it }
+            .take((allDrivers.size * 0.2).toInt())
+            .sumByDouble { it }
+}
+
+fun TaxiPark.findIncome(driver: Driver): Double {
+    return trips.filter { trip -> trip.driver == driver }
+            .sumByDouble { trip -> trip.cost }
+}
+
+fun TaxiPark.findTotalIncome(): Double {
+    return trips.sumByDouble { trip -> trip.cost }
 }
