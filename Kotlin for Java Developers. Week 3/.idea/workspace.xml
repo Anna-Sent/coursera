@@ -44,8 +44,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="357">
-                  <caret line="69" column="29" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="29" />
+                <MainEditorState relative-caret-position="258">
+                  <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -155,6 +155,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pair</find>
+      <find>it</find>
+      <find>it</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -259,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTask4SmartPassengers">
+  <component name="RunManager" selected="JUnit.TestTask6ParetoPrinciple">
     <configuration name="TestTask2FaithfulPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Taxi_Park-Task_test" />
       <extension name="coverage">
@@ -338,8 +345,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTask4SmartPassengers" />
         <item itemvalue="JUnit.TestTask6ParetoPrinciple" />
+        <item itemvalue="JUnit.TestTask4SmartPassengers" />
         <item itemvalue="JUnit.TestTask6ParetoPrinciple.test1" />
         <item itemvalue="JUnit.TestTask3FrequentPassengers" />
         <item itemvalue="JUnit.TestTask2FaithfulPassengers" />
@@ -360,12 +367,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTask1FakeDrivers - 2019.05.14 at 18h 15m 07s.xml">
-      <configuration name="TestTask1FakeDrivers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask2FaithfulPassengers - 2019.05.14 at 18h 17m 58s.xml">
-      <configuration name="TestTask2FaithfulPassengers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTask1FakeDrivers - 2019.05.14 at 20h 54m 25s.xml">
       <configuration name="TestTask1FakeDrivers" configurationId="JUnit" />
     </history-entry>
@@ -388,6 +389,12 @@
       <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 21h 52m 04s.xml">
+      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask4SmartPassengers - 2019.05.14 at 21h 55m 25s.xml">
+      <configuration name="TestTask4SmartPassengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 22h 07m 08s.xml">
       <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -480,15 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask4SmartPassengers.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState />
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -509,17 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiPark.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar!/kotlin/kotlin.kotlin_builtins">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -531,6 +518,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="205" column="59" selection-start-line="205" selection-start-column="59" selection-end-line="205" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask4SmartPassengers.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiPark.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="357">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            </MainEditorState>
+          </EduEditorState>
         </state>
       </provider>
     </entry>
@@ -549,8 +556,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="357">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="29" />
+            <MainEditorState relative-caret-position="258">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
             </MainEditorState>
           </EduEditorState>
         </state>
