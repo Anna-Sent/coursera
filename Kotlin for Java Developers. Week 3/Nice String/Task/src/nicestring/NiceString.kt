@@ -9,8 +9,8 @@ fun String.isNice(): Boolean {
 }
 
 fun String.first(): Boolean {
-    return listOf("bu", "ba", "be")
-            .count { contains(it) } == 0
+    return setOf("bu", "ba", "be")
+            .none { contains(it) }
 }
 
 fun String.second(): Boolean {
@@ -19,5 +19,5 @@ fun String.second(): Boolean {
 
 fun String.third(): Boolean {
     return zipWithNext()
-            .count { it.first == it.second } > 0
+            .any { it.first == it.second }
 }

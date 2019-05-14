@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nice String/Task/src/nicestring/NiceString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Nice String/Task/src/nicestring/NiceString.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -43,8 +45,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="391">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
+                <MainEditorState relative-caret-position="187">
+                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -74,8 +76,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="190">
-                  <caret line="57" selection-start-line="57" selection-end-line="57" />
+                <MainEditorState relative-caret-position="136">
+                  <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -171,6 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
@@ -228,6 +231,27 @@
     <history-entry file="TestNiceString - 2019.05.14 at 17h 46m 59s.xml">
       <configuration name="TestNiceString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 17h 58m 58s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 17h 59m 12s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 17h 59m 17s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 16s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 33s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 42s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 56s.xml">
+      <configuration name="TestNiceString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -240,7 +264,6 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
@@ -252,7 +275,8 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="11" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -284,8 +308,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="190">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <MainEditorState relative-caret-position="136">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -295,8 +319,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <MainEditorState relative-caret-position="187">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
             </MainEditorState>
           </EduEditorState>
         </state>
