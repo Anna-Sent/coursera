@@ -44,8 +44,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="258">
-                  <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+                <MainEditorState relative-caret-position="193">
+                  <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -110,7 +110,7 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="703">
+                <MainEditorState relative-caret-position="4896">
                   <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
                 </MainEditorState>
               </EduEditorState>
@@ -160,6 +160,7 @@
       <find>pair</find>
       <find>it</find>
       <find>it</find>
+      <find>sec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -266,37 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTask6ParetoPrinciple">
-    <configuration name="TestTask2FaithfulPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taxi_Park-Task_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taxipark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taxipark" />
-      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask2FaithfulPassengers" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTask3FrequentPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Taxi_Park-Task_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="taxipark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="taxipark" />
-      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask3FrequentPassengers" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestTask5TheMostFrequentTripDurationPeriod">
     <configuration name="TestTask4SmartPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Taxi_Park-Task_test" />
       <extension name="coverage">
@@ -308,6 +279,37 @@
       <option name="PACKAGE_NAME" value="taxipark" />
       <option name="MAIN_CLASS_NAME" value="taxipark.TestTask4SmartPassengers" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTask5TheMostFrequentTripDurationPeriod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxi_Park-Task_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taxipark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taxipark" />
+      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask5TheMostFrequentTripDurationPeriod" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxi_Park-Task_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taxipark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taxipark" />
+      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask5TheMostFrequentTripDurationPeriod" />
+      <option name="METHOD_NAME" value="test12" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTask5TheMostFrequentTripDurationPeriod" />
         <item itemvalue="JUnit.TestTask6ParetoPrinciple" />
+        <item itemvalue="JUnit.TestTask5TheMostFrequentTripDurationPeriod.test12" />
         <item itemvalue="JUnit.TestTask4SmartPassengers" />
         <item itemvalue="JUnit.TestTask6ParetoPrinciple.test1" />
-        <item itemvalue="JUnit.TestTask3FrequentPassengers" />
-        <item itemvalue="JUnit.TestTask2FaithfulPassengers" />
       </list>
     </recent_temporary>
   </component>
@@ -367,42 +369,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTask1FakeDrivers - 2019.05.14 at 20h 54m 25s.xml">
-      <configuration name="TestTask1FakeDrivers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask2FaithfulPassengers - 2019.05.14 at 20h 54m 28s.xml">
-      <configuration name="TestTask2FaithfulPassengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask3FrequentPassengers - 2019.05.14 at 21h 00m 33s.xml">
-      <configuration name="TestTask3FrequentPassengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask4SmartPassengers - 2019.05.14 at 21h 13m 52s.xml">
-      <configuration name="TestTask4SmartPassengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 21h 46m 32s.xml">
-      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask6ParetoPrinciple_test1 - 2019.05.14 at 21h 50m 16s.xml">
-      <configuration name="TestTask6ParetoPrinciple.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 21h 50m 24s.xml">
-      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 21h 52m 04s.xml">
-      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask4SmartPassengers - 2019.05.14 at 21h 55m 25s.xml">
-      <configuration name="TestTask4SmartPassengers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 22h 07m 08s.xml">
       <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 41m 53s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 45m 13s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 46m 44s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 50m 47s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 50m 53s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 51m 55s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod_test12 - 2019.05.14 at 22h 52m 48s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask6ParetoPrinciple - 2019.05.14 at 22h 53m 03s.xml">
+      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod - 2019.05.14 at 22h 53m 07s.xml">
+      <configuration name="TestTask5TheMostFrequentTripDurationPeriod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27831715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27831715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49838188" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,26 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState />
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask5TheMostFrequentTripDurationPeriod.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="703">
-              <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar!/kotlin/kotlin.kotlin_builtins">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -541,6 +523,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask6ParetoPrinciple.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -552,12 +543,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask5TheMostFrequentTripDurationPeriod.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="4896">
+              <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="258">
-              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <MainEditorState relative-caret-position="193">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
             </MainEditorState>
           </EduEditorState>
         </state>
