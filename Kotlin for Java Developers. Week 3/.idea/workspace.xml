@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -44,8 +44,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="479">
-                  <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+                <MainEditorState relative-caret-position="279">
+                  <caret line="46" selection-start-line="46" selection-end-line="46" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -53,6 +53,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask4SmartPassengers.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState />
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
@@ -202,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTask3FrequentPassengers">
+  <component name="RunManager" selected="JUnit.TestTask4SmartPassengers">
     <configuration name="TestNiceString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Nice_String-Task_test" />
       <extension name="coverage">
@@ -263,8 +274,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTask4SmartPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxi_Park-Task_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taxipark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taxipark" />
+      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask4SmartPassengers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTask4SmartPassengers" />
         <item itemvalue="JUnit.TestTask3FrequentPassengers" />
         <item itemvalue="JUnit.TestTask2FaithfulPassengers" />
         <item itemvalue="JUnit.TestTask1FakeDrivers" />
@@ -286,9 +313,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 56s.xml">
-      <configuration name="TestNiceString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNiceString - 2019.05.14 at 18h 01m 19s.xml">
       <configuration name="TestNiceString" configurationId="JUnit" />
     </history-entry>
@@ -316,6 +340,9 @@
     <history-entry file="TestTask2FaithfulPassengers - 2019.05.14 at 20h 54m 28s.xml">
       <configuration name="TestTask2FaithfulPassengers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask3FrequentPassengers - 2019.05.14 at 21h 00m 33s.xml">
+      <configuration name="TestTask3FrequentPassengers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -330,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,18 +442,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="479">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <MainEditorState relative-caret-position="279">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask4SmartPassengers.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>

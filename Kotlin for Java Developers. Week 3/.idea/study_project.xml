@@ -269,12 +269,12 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="349" />
                                       <option name="offset" value="1537" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -292,7 +292,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="1820" />
+                                      <option name="offset" value="2163" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -314,7 +314,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="1966" />
+                                      <option name="offset" value="2309" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
