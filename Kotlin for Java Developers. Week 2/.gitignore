@@ -26,3 +26,4 @@ Mastermind/Task/build/*
 
 *.lock
 .gradle/
+*.kotlin_module

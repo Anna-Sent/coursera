@@ -6,6 +6,17 @@ import kotlin.math.min
 data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 
 fun evaluateGuess(secret: String, guess: String): Evaluation {
+
+    val rightPositions = secret.zip(guess).count { pair -> pair.first == pair.second }
+
+    val commonLetters = "ABCDEF".sumBy { ch ->
+
+        Math.min(secret.count { ch1 -> ch1 == ch }, guess.count { ch1 -> ch1 == ch })
+    }
+    return Evaluation(rightPositions, commonLetters - rightPositions)
+}
+
+fun evaluateGuess_(secret: String, guess: String): Evaluation {
     var rightPosition = 0
     val matchingIndicies = mutableSetOf<Int>()
     for (i in 0 until min(secret.length, guess.length)) {

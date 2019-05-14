@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dad8c28-0f4c-449f-b4aa-653b54a84129" name="Default Changelist" comment="" />
+    <list default="true" id="1dad8c28-0f4c-449f-b4aa-653b54a84129" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Mastermind/Task/Mastermind-Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Mastermind/Task/Mastermind-Task_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Mastermind/Task/Mastermind-Task_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/Mastermind/Task/.gradle/" />
@@ -33,13 +45,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="717">
-                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                <MainEditorState relative-caret-position="275">
+                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
                   <folding>
                     <element signature="e#20#61#0" expanded="true" />
                   </folding>
@@ -49,13 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/mastermind/TestMastermindDifferentLetters.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="442">
-                  <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+                <MainEditorState relative-caret-position="119">
+                  <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -67,8 +79,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="1445">
-                  <caret line="87" selection-start-line="87" selection-end-line="87" />
+                <MainEditorState relative-caret-position="85">
+                  <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -93,7 +105,9 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState />
+                <MainEditorState relative-caret-position="136">
+                  <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+                </MainEditorState>
               </EduEditorState>
             </state>
           </provider>
@@ -124,7 +138,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Course">
         <subPane>
           <expand>
@@ -178,6 +191,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,22 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMastermindDifferentLetters.test05WrongPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mastermind-Task_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mastermind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mastermind" />
-      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindDifferentLetters" />
-      <option name="METHOD_NAME" value="test05WrongPositions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMastermindRepeatedLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mastermind-Task_test" />
       <extension name="coverage">
@@ -245,42 +243,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMastermindRepeatedLetters.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mastermind-Task_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mastermind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mastermind" />
-      <option name="MAIN_CLASS_NAME" value="mastermind.TestMastermindRepeatedLetters" />
-      <option name="METHOD_NAME" value="test11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mastermind.PlayMastermindKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Mastermind-Task_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mastermind.PlayMastermindKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestMastermindRepeatedLetters" />
         <item itemvalue="JUnit.TestMastermindDifferentLetters" />
-        <item itemvalue="JUnit.TestMastermindRepeatedLetters.test11" />
-        <item itemvalue="JUnit.TestMastermindDifferentLetters.test05WrongPositions" />
-        <item itemvalue="Kotlin.mastermind.PlayMastermindKt" />
       </list>
     </recent_temporary>
   </component>
@@ -298,12 +264,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMastermindDifferentLetters - 2019.05.13 at 23h 41m 32s.xml">
-      <configuration name="TestMastermindDifferentLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMastermindRepeatedLetters - 2019.05.13 at 23h 41m 41s.xml">
-      <configuration name="TestMastermindRepeatedLetters" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMastermindRepeatedLetters - 2019.05.13 at 23h 46m 22s.xml">
       <configuration name="TestMastermindRepeatedLetters" configurationId="JUnit" />
     </history-entry>
@@ -328,11 +288,17 @@
     <history-entry file="Tests_in_'Mastermind-Task_test' - 2019.05.14 at 01h 45m 28s.xml">
       <configuration name="Tests in 'Mastermind-Task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TestMastermindDifferentLetters - 2019.05.14 at 13h 55m 06s.xml">
+      <configuration name="TestMastermindDifferentLetters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMastermindRepeatedLetters - 2019.05.14 at 13h 55m 12s.xml">
+      <configuration name="TestMastermindRepeatedLetters" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2564725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -341,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,7 +322,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Task" order="4" visible="true" weight="0.7184466" />
+      <window_info anchor="right" id="Task" order="4" weight="0.71801704" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -377,11 +343,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/playMastermind.kt">
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState />
+            <MainEditorState relative-caret-position="275">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#20#61#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/mastermind/TestMastermindRepeatedLetters.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="85">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
@@ -397,37 +379,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/playMastermind.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="136">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/mastermind/TestMastermindDifferentLetters.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="442">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/mastermind/TestMastermindRepeatedLetters.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="1445">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="717">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#20#61#0" expanded="true" />
-              </folding>
+            <MainEditorState relative-caret-position="119">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </MainEditorState>
           </EduEditorState>
         </state>
