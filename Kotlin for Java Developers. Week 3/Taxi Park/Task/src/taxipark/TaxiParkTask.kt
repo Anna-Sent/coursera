@@ -4,13 +4,27 @@ package taxipark
  * Task #1. Find all the drivers who performed no trips.
  */
 fun TaxiPark.findFakeDrivers(): Set<Driver> =
-        TODO()
+        allDrivers.associate { driver -> driver to findAllTrips(driver) }
+                .filter { (_, trips) -> trips.isEmpty() }
+                .map { (driver, _) -> driver }
+                .toSet()
+
+fun TaxiPark.findAllTrips(driver: Driver): List<Trip> {
+    return trips.filter { trip -> trip.driver == driver }
+}
 
 /*
  * Task #2. Find all the clients who completed at least the given number of trips.
  */
 fun TaxiPark.findFaithfulPassengers(minTrips: Int): Set<Passenger> =
-        TODO()
+        allPassengers.associate { passenger -> passenger to findAllTrips(passenger) }
+                .filter { (_, trips) -> trips.size >= minTrips }
+                .map { (passenger, _) -> passenger }
+                .toSet()
+
+fun TaxiPark.findAllTrips(passenger: Passenger): List<Trip> {
+    return trips.filter { trip -> passenger in trip.passengers }
+}
 
 /*
  * Task #3. Find all the passengers, who were taken by a given driver more than once.

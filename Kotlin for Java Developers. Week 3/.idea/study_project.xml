@@ -203,12 +203,12 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="195" />
                                       <option name="offset" value="136" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -225,12 +225,12 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="311" />
+                                      <option name="length" value="350" />
+                                      <option name="offset" value="617" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -248,11 +248,11 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="490" />
+                                      <option name="offset" value="1140" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -270,7 +270,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="646" />
+                                      <option name="offset" value="1296" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -292,7 +292,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="929" />
+                                      <option name="offset" value="1579" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -314,7 +314,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="1075" />
+                                      <option name="offset" value="1725" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -325,7 +325,7 @@
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/taxipark/TaxiParkTask.kt" />
                                 <option name="text" value="package taxipark&#10;&#10;/*&#10; * Task #1. Find all the drivers who performed no trips.&#10; */&#10;fun TaxiPark.findFakeDrivers(): Set&lt;Driver&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #2. Find all the clients who completed at least the given number of trips.&#10; */&#10;fun TaxiPark.findFaithfulPassengers(minTrips: Int): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #3. Find all the passengers, who were taken by a given driver more than once.&#10; */&#10;fun TaxiPark.findFrequentPassengers(driver: Driver): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #4. Find the passengers who had a discount for majority of their trips.&#10; */&#10;fun TaxiPark.findSmartPassengers(): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #5. Find the most frequent trip duration among minute periods 0..9, 10..19, 20..29, and so on.&#10; * Return any period if many are the most frequent, return `null` if there're no trips.&#10; */&#10;fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {&#10;    return TODO()&#10;}&#10;&#10;/*&#10; * Task #6.&#10; * Check whether 20% of the drivers contribute 80% of the income.&#10; */&#10;fun TaxiPark.checkParetoPrinciple(): Boolean {&#10;    TODO()&#10;}" />
                                 <option name="trackChanges" value="true" />
