@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,14 +39,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="357">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                <MainEditorState relative-caret-position="479">
+                  <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
                 </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState />
               </EduEditorState>
             </state>
           </provider>
@@ -70,15 +81,6 @@
               <EduEditorState>
                 <MainEditorState />
               </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/generated/_Collections.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="1039" column="40" selection-start-line="1039" selection-start-column="40" selection-end-line="1039" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -114,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -126,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Course">
         <subPane>
           <expand>
@@ -181,6 +181,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTask2FaithfulPassengers">
+  <component name="RunManager" selected="JUnit.TestTask3FrequentPassengers">
     <configuration name="TestNiceString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Nice_String-Task_test" />
       <extension name="coverage">
@@ -246,8 +248,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTask3FrequentPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Taxi_Park-Task_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taxipark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taxipark" />
+      <option name="MAIN_CLASS_NAME" value="taxipark.TestTask3FrequentPassengers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTask3FrequentPassengers" />
         <item itemvalue="JUnit.TestTask2FaithfulPassengers" />
         <item itemvalue="JUnit.TestTask1FakeDrivers" />
         <item itemvalue="JUnit.TestNiceString" />
@@ -268,12 +286,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 33s.xml">
-      <configuration name="TestNiceString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 42s.xml">
-      <configuration name="TestNiceString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNiceString - 2019.05.14 at 18h 00m 56s.xml">
       <configuration name="TestNiceString" configurationId="JUnit" />
     </history-entry>
@@ -298,12 +310,18 @@
     <history-entry file="TestTask2FaithfulPassengers - 2019.05.14 at 18h 17m 58s.xml">
       <configuration name="TestTask2FaithfulPassengers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask1FakeDrivers - 2019.05.14 at 20h 54m 25s.xml">
+      <configuration name="TestTask1FakeDrivers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2FaithfulPassengers - 2019.05.14 at 20h 54m 28s.xml">
+      <configuration name="TestTask2FaithfulPassengers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27831715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,13 +339,13 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32871974" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298731" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Task" order="4" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Task" order="4" visible="true" weight="0.32928804" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -336,20 +354,8 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/generated/_Strings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1445" column="24" selection-start-line="1445" selection-start-column="24" selection-end-line="1445" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/kotlin/text/Strings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1034" column="33" selection-start-line="1034" selection-start-column="33" selection-end-line="1034" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/generated/_Strings.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/kotlin/text/Strings.kt" />
     <entry file="file://$PROJECT_DIR$/Nice String/Task/test/nicestring/TestNiceString.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -381,14 +387,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="1039" column="40" selection-start-line="1039" selection-start-column="40" selection-end-line="1039" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask1FakeDrivers.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/generated/_Collections.kt" />
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiPark.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
@@ -397,7 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiPark.kt">
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask1FakeDrivers.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
@@ -419,9 +419,18 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="357">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <MainEditorState relative-caret-position="479">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taxi Park/Task/test/taxipark/TestTask3FrequentPassengers.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
           </EduEditorState>
         </state>
       </provider>

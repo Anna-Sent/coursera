@@ -30,7 +30,10 @@ fun TaxiPark.findAllTrips(passenger: Passenger): List<Trip> {
  * Task #3. Find all the passengers, who were taken by a given driver more than once.
  */
 fun TaxiPark.findFrequentPassengers(driver: Driver): Set<Passenger> =
-        TODO()
+        allPassengers.associate { passenger -> passenger to findAllTrips(passenger) }
+                .filter { (_, trips) -> trips.count { trip -> trip.driver == driver } > 1 }
+                .map { (passenger, _) -> passenger }
+                .toSet()
 
 /*
  * Task #4. Find the passengers who had a discount for majority of their trips.
