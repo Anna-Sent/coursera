@@ -58,7 +58,7 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? =
  * Task #6.
  * Check whether 20% of the drivers contribute 80% of the income.
  */
-fun TaxiPark.checkParetoPrinciple(): Boolean =
+fun TaxiPark.checkParetoPrinciple_(): Boolean =
         trips.isNotEmpty() && findIncomeOf20PercentDrivers() / findTotalIncome() >= 0.8
 
 fun TaxiPark.findIncomeOf20PercentDrivers(): Double =
@@ -73,3 +73,20 @@ fun TaxiPark.findIncome(driver: Driver): Double =
 
 fun TaxiPark.findTotalIncome(): Double =
         trips.sumByDouble { trip -> trip.cost }
+
+fun TaxiPark.checkParetoPrinciple(): Boolean {
+    if (trips.isEmpty()) return false
+
+    val totalIncome = trips.sumByDouble(Trip::cost)
+    val sortedDriversIncome: List<Double> = trips
+            .groupBy(Trip::driver)
+            .map { (_, tripsByDriver) -> tripsByDriver.sumByDouble(Trip::cost) }
+            .sortedDescending()
+
+    val numberOfTopDrivers = (0.2 * allDrivers.size).toInt()
+    val incomeByTopDrivers = sortedDriversIncome
+            .take(numberOfTopDrivers)
+            .sum()
+
+    return incomeByTopDrivers >= 0.8 * totalIncome
+}
