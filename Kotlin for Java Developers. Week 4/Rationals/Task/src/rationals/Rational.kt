@@ -23,38 +23,65 @@ data class Rational(val n: BigInteger, val d: BigInteger) : Comparable<Rational>
     }
 
     override fun compareTo(other: Rational): Int {
-        TODO()
+        return (n * other.d).compareTo(d * other.n)
+    }
+
+    override fun toString(): String {
+        val normalized = normalize()
+        return if (normalized.d == BigInteger.ONE) "${normalized.n}" else "${normalized.n}/${normalized.d}"
     }
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is Rational) return false
-        val normalizedThis = normalize()
+        val normalized = normalize()
         val normalizedOther = other.normalize()
-        return normalizedThis.n == normalizedOther.n
-                && normalizedThis.d == normalizedOther.d
+        return normalized.n == normalizedOther.n
+                && normalized.d == normalizedOther.d
     }
 
     override fun hashCode(): Int {
         val prime = 31
         var result = 1
-        result = prime * result + n.hashCode()
-        result = prime * result + d.hashCode()
+        val normalized = normalize()
+        result = prime * result + normalized.hashCode()
+        result = prime * result + normalized.hashCode()
         return result
     }
 }
 
-infix fun Int.divBy(d: Int): Rational = Rational(this, d)
-infix fun Long.divBy(d: Long): Rational = Rational(this, d)
-infix fun BigInteger.divBy(d: BigInteger): Rational = Rational(this, d)
+infix fun Int.divBy(d: Int): Rational = Rational(this, d).normalize()
+infix fun Long.divBy(d: Long): Rational = Rational(this, d).normalize()
+infix fun BigInteger.divBy(d: BigInteger): Rational = Rational(this, d).normalize()
 
-operator fun Rational.plus(other: Rational): Rational = TODO()
-operator fun Rational.minus(other: Rational): Rational = TODO()
-operator fun Rational.unaryMinus(): Rational = TODO()
-operator fun Rational.div(other: Rational): Rational = TODO()
-operator fun Rational.times(other: Rational): Rational = TODO()
+operator fun Rational.plus(other: Rational): Rational {
+    val lcm = (d * other.d) / d.gcd(other.d)
+    return Rational(n * lcm / d + other.n * lcm / other.d, lcm).normalize()
+}
 
-fun String.toRational(): Rational = TODO()
+operator fun Rational.minus(other: Rational): Rational {
+    val lcm = (d * other.d) / d.gcd(other.d)
+    return Rational(n * lcm / d - other.n * lcm / other.d, lcm).normalize()
+}
+
+operator fun Rational.unaryMinus(): Rational = copy(n = -n).normalize()
+
+operator fun Rational.div(other: Rational): Rational = Rational(n * other.d, d * other.n).normalize()
+
+operator fun Rational.times(other: Rational): Rational = Rational(n * other.n, d * other.d).normalize()
+
+const val delimiter = "/"
+
+fun String.toRational(): Rational {
+    if (delimiter in this) {
+        val tokens = split("/")
+        val n = tokens[0].toBigInteger()
+        val d = tokens[1].toBigInteger()
+        return Rational(n, d).normalize()
+    }
+    val n = toBigInteger()
+    return Rational(n, BigInteger.ONE)
+}
 
 fun main() {
     val half = 1 divBy 2
