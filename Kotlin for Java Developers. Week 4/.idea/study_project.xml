@@ -180,12 +180,12 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="90" />
+                                      <option name="length" value="1507" />
+                                      <option name="offset" value="64" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -202,19 +202,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="149" />
+                                      <option name="length" value="1677" />
+                                      <option name="offset" value="1625" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/board/BoardImpl.kt" />
                                 <option name="text" value="package board&#10;&#10;import board.Direction.*&#10;&#10;fun createSquareBoard(width: Int): SquareBoard = TODO()&#10;fun &lt;T&gt; createGameBoard(width: Int): GameBoard&lt;T&gt; = TODO()&#10;&#10;" />
                                 <option name="trackChanges" value="true" />
