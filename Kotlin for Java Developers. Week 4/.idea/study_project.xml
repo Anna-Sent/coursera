@@ -59,7 +59,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/rationals/Rational.kt" />
                                 <option name="text" value="package rationals&#10;&#10;&#10;&#10;fun main() {&#10;    val half = 1 divBy 2&#10;    val third = 1 divBy 3&#10;&#10;    val sum: Rational = half + third&#10;    println(5 divBy 6 == sum)&#10;&#10;    val difference: Rational = half - third&#10;    println(1 divBy 6 == difference)&#10;&#10;    val product: Rational = half * third&#10;    println(1 divBy 6 == product)&#10;&#10;    val quotient: Rational = half / third&#10;    println(3 divBy 2 == quotient)&#10;&#10;    val negation: Rational = -half&#10;    println(-1 divBy 2 == negation)&#10;&#10;    println((2 divBy 1).toString() == &quot;2&quot;)&#10;    println((-2 divBy 4).toString() == &quot;-1/2&quot;)&#10;    println(&quot;117/1098&quot;.toRational().toString() == &quot;13/122&quot;)&#10;&#10;    val twoThirds = 2 divBy 3&#10;    println(half &lt; twoThirds)&#10;&#10;    println(half in third..twoThirds)&#10;&#10;    println(2000000000L divBy 4000000000L == 1 divBy 2)&#10;&#10;    println(&quot;912016490186296920119201192141970416029&quot;.toBigInteger() divBy&#10;            &quot;1824032980372593840238402384283940832058&quot;.toBigInteger() == 1 divBy 2)&#10;}" />
                                 <option name="trackChanges" value="true" />

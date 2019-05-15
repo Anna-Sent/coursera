@@ -34,7 +34,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../../Rationals/Task/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../../../Rationals/Task/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Rationals/Task/src/test" />
     <content url="file://$MODULE_DIR$/../../../../Rationals/Task/test">
