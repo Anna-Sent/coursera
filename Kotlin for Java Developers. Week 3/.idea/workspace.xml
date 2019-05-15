@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b6a677-61e5-4068-98ea-927436b85c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Taxi Park/Task/src/taxipark/TaxiParkTask.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -44,8 +43,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="470">
-                  <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+                <MainEditorState relative-caret-position="773">
+                  <caret line="92" selection-start-line="92" selection-end-line="92" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -102,7 +101,7 @@
             <state>
               <EduEditorState>
                 <MainEditorState relative-caret-position="4896">
-                  <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+                  <caret line="291" column="1" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -392,9 +391,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTask5TheMostFrequentTripDurationPeriod - 2019.05.15 at 13h 23m 45s.xml">
-      <configuration name="TestTask5TheMostFrequentTripDurationPeriod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestTask5TheMostFrequentTripDurationPeriod - 2019.05.15 at 13h 26m 27s.xml">
       <configuration name="TestTask5TheMostFrequentTripDurationPeriod" configurationId="JUnit" />
     </history-entry>
@@ -422,12 +418,15 @@
     <history-entry file="TestTask6ParetoPrinciple - 2019.05.15 at 13h 47m 39s.xml">
       <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask6ParetoPrinciple - 2019.05.15 at 13h 51m 58s.xml">
+      <configuration name="TestTask6ParetoPrinciple" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,7 +435,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838188" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49838188" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,7 +548,7 @@
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="4896">
-              <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+              <caret line="291" column="1" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -581,8 +580,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="470">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <MainEditorState relative-caret-position="773">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </MainEditorState>
           </EduEditorState>
         </state>
