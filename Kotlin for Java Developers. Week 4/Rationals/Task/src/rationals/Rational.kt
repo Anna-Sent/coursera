@@ -2,11 +2,8 @@ package rationals
 
 import java.math.BigInteger
 
-data class Rational(val n: BigInteger, val d: BigInteger) : Comparable<Rational> {
-
-    constructor(n: Int, d: Int) : this(n.toBigInteger(), d.toBigInteger())
-
-    constructor(n: Long, d: Long) : this(n.toBigInteger(), d.toBigInteger())
+@Suppress("DataClassPrivateConstructor")
+data class Rational private constructor(val n: BigInteger, val d: BigInteger) : Comparable<Rational> {
 
     init {
         if (d == BigInteger.ZERO) {
@@ -14,12 +11,16 @@ data class Rational(val n: BigInteger, val d: BigInteger) : Comparable<Rational>
         }
     }
 
-    fun normalize(): Rational {
+    companion object {
+        fun create(n: Int, d: Int) = Rational(n.toBigInteger(), d.toBigInteger()).normalize()
+        fun create(n: Long, d: Long) = Rational(n.toBigInteger(), d.toBigInteger()).normalize()
+        fun create(n: BigInteger, d: BigInteger) = Rational(n, d).normalize()
+    }
+
+    private fun normalize(): Rational {
         val divisor = n.gcd(d)
-        val nSign = if (n >= BigInteger.ZERO) BigInteger.ONE else BigInteger.valueOf(-1)
-        val dSign = if (d >= BigInteger.ZERO) BigInteger.ONE else BigInteger.valueOf(-1)
-        val sign = nSign * dSign
-        return Rational(sign * (n / divisor).abs(), (d / divisor).abs())
+        val sign = d.signum().toBigInteger()
+        return Rational(sign * n / divisor, sign * d / divisor)
     }
 
     override fun compareTo(other: Rational): Int {
@@ -27,60 +28,44 @@ data class Rational(val n: BigInteger, val d: BigInteger) : Comparable<Rational>
     }
 
     override fun toString(): String {
-        val normalized = normalize()
-        return if (normalized.d == BigInteger.ONE) "${normalized.n}" else "${normalized.n}/${normalized.d}"
-    }
-
-    override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (other !is Rational) return false
-        val normalized = normalize()
-        val normalizedOther = other.normalize()
-        return normalized.n == normalizedOther.n
-                && normalized.d == normalizedOther.d
-    }
-
-    override fun hashCode(): Int {
-        val prime = 31
-        var result = 1
-        val normalized = normalize()
-        result = prime * result + normalized.hashCode()
-        result = prime * result + normalized.hashCode()
-        return result
+        return if (d == BigInteger.ONE) "$n" else "$n/$d"
     }
 }
 
-infix fun Int.divBy(d: Int): Rational = Rational(this, d).normalize()
-infix fun Long.divBy(d: Long): Rational = Rational(this, d).normalize()
-infix fun BigInteger.divBy(d: BigInteger): Rational = Rational(this, d).normalize()
+infix fun Int.divBy(d: Int): Rational = Rational.create(this, d)
+infix fun Long.divBy(d: Long): Rational = Rational.create(this, d)
+infix fun BigInteger.divBy(d: BigInteger): Rational = Rational.create(this, d)
 
 operator fun Rational.plus(other: Rational): Rational {
-    val lcm = (d * other.d) / d.gcd(other.d)
-    return Rational(n * lcm / d + other.n * lcm / other.d, lcm).normalize()
+    val lcm = d * other.d / d.gcd(other.d)
+    return Rational.create(n * lcm / d + other.n * lcm / other.d, lcm)
 }
 
 operator fun Rational.minus(other: Rational): Rational {
-    val lcm = (d * other.d) / d.gcd(other.d)
-    return Rational(n * lcm / d - other.n * lcm / other.d, lcm).normalize()
+    val lcm = d * other.d / d.gcd(other.d)
+    return Rational.create(n * lcm / d - other.n * lcm / other.d, lcm)
 }
 
-operator fun Rational.unaryMinus(): Rational = copy(n = -n).normalize()
+operator fun Rational.unaryMinus(): Rational = copy(n = -n)
 
-operator fun Rational.div(other: Rational): Rational = Rational(n * other.d, d * other.n).normalize()
+operator fun Rational.div(other: Rational): Rational = Rational.create(n * other.d, d * other.n)
 
-operator fun Rational.times(other: Rational): Rational = Rational(n * other.n, d * other.d).normalize()
+operator fun Rational.times(other: Rational): Rational = Rational.create(n * other.n, d * other.d)
 
 const val delimiter = "/"
 
 fun String.toRational(): Rational {
+    fun String.toBigIntegerOrFail() =
+            toBigIntegerOrNull() ?: throw java.lang.IllegalArgumentException(
+                    "Expecting rational in the form of 'n/d' or 'n', was: '${this@toRational}'")
     if (delimiter in this) {
-        val tokens = split("/")
-        val n = tokens[0].toBigInteger()
-        val d = tokens[1].toBigInteger()
-        return Rational(n, d).normalize()
+        val (nStr, dStr) = split(delimiter)
+        val n = nStr.toBigIntegerOrFail()
+        val d = dStr.toBigIntegerOrFail()
+        return Rational.create(n, d)
     }
-    val n = toBigInteger()
-    return Rational(n, BigInteger.ONE)
+    val n = toBigIntegerOrFail()
+    return Rational.create(n, BigInteger.ONE)
 }
 
 fun main() {
@@ -115,4 +100,6 @@ fun main() {
 
     println("912016490186296920119201192141970416029".toBigInteger() divBy
             "1824032980372593840238402384283940832058".toBigInteger() == 1 divBy 2)
+
+    println("1/2/3".toRational())
 }
