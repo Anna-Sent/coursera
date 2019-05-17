@@ -41,7 +41,9 @@ class Game2048(private val initializer: Game2048Initializer<Int>) : Game {
  * Add a new value produced by 'initializer' to a specified cell in a board.
  */
 fun GameBoard<Int?>.addNewValue(initializer: Game2048Initializer<Int>) {
-    TODO()
+    val pair = initializer.nextValue(this)
+    val (cell, value) = pair ?: return
+    this[cell] = value
 }
 
 /*
@@ -53,7 +55,12 @@ fun GameBoard<Int?>.addNewValue(initializer: Game2048Initializer<Int>) {
  * Return 'true' if the values were moved and 'false' otherwise.
  */
 fun GameBoard<Int?>.moveValuesInRowOrColumn(rowOrColumn: List<Cell>): Boolean {
-    TODO()
+    val values = rowOrColumn.map { cell -> this[cell] }
+    val mergedValues = values.moveAndMergeEqual { v -> v * v }
+    for ((i, cell) in rowOrColumn.withIndex()) {
+        this[cell] = mergedValues.getOrNull(i)
+    }
+    return !values.filterIndexed { i, value -> mergedValues.getOrNull(i) != value }.isEmpty()
 }
 
 /*

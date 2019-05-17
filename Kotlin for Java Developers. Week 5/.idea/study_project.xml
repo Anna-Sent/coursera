@@ -160,8 +160,8 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="1227" />
+                                      <option name="length" value="18" />
+                                      <option name="offset" value="1309" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -182,12 +182,12 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="1705" />
+                                      <option name="length" value="297" />
+                                      <option name="offset" value="1812" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
@@ -205,7 +205,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="2052" />
+                                      <option name="offset" value="2449" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -216,7 +216,7 @@
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/game2048/Game2048.kt" />
                                 <option name="text" value="package games.game2048&#10;&#10;import board.Cell&#10;import board.Direction&#10;import board.GameBoard&#10;import board.createGameBoard&#10;import games.game.Game&#10;&#10;/*&#10; * Your task is to implement the game 2048 https://en.wikipedia.org/wiki/2048_(video_game).&#10; * Implement the utility methods below.&#10; *&#10; * After implementing it you can try to play the game running 'PlayGame2048'.&#10; */&#10;fun newGame2048(initializer: Game2048Initializer&lt;Int&gt; = RandomGame2048Initializer): Game =&#10;        Game2048(initializer)&#10;&#10;class Game2048(private val initializer: Game2048Initializer&lt;Int&gt;) : Game {&#10;    private val board = createGameBoard&lt;Int?&gt;(4)&#10;&#10;    override fun initialize() {&#10;        repeat(2) {&#10;            board.addNewValue(initializer)&#10;        }&#10;    }&#10;&#10;    override fun canMove() = board.any { it == null }&#10;&#10;    override fun hasWon() = board.any { it == 2048 }&#10;&#10;    override fun processMove(direction: Direction) {&#10;        if (board.moveValues(direction)) {&#10;            board.addNewValue(initializer)&#10;        }&#10;    }&#10;&#10;    override fun get(i: Int, j: Int): Int? = board.run { get(getCell(i, j)) }&#10;}&#10;&#10;/*&#10; * Add a new value produced by 'initializer' to a specified cell in a board.&#10; */&#10;fun GameBoard&lt;Int?&gt;.addNewValue(initializer: Game2048Initializer&lt;Int&gt;) {&#10;    TODO()&#10;}&#10;&#10;/*&#10; * Update the values stored in a board,&#10; * so that the values were &quot;moved&quot; in a specified rowOrColumn only.&#10; * Use the helper function 'moveAndMergeEqual' (in Game2048Helper.kt).&#10; * The values should be moved to the beginning of the row (or column),&#10; * in the same manner as in the function 'moveAndMergeEqual'.&#10; * Return 'true' if the values were moved and 'false' otherwise.&#10; */&#10;fun GameBoard&lt;Int?&gt;.moveValuesInRowOrColumn(rowOrColumn: List&lt;Cell&gt;): Boolean {&#10;    TODO()&#10;}&#10;&#10;/*&#10; * Update the values stored in a board,&#10; * so that the values were &quot;moved&quot; to the specified direction&#10; * following the rules of the 2048 game .&#10; * Use the 'moveValuesInRowOrColumn' function above.&#10; * Return 'true' if the values were moved and 'false' otherwise.&#10; */&#10;fun GameBoard&lt;Int?&gt;.moveValues(direction: Direction): Boolean {&#10;    TODO()&#10;}" />
                                 <option name="trackChanges" value="true" />
