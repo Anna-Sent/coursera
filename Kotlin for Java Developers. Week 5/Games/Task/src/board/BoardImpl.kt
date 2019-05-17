@@ -29,13 +29,39 @@ fun createSquareBoard(width: Int): SquareBoard = object : SquareBoard {
 
     private fun getCells(iRange: IntProgression, jRange: IntProgression): List<Cell> {
         val list = mutableListOf<Cell>()
-        for (i in iRange) {
-            for (j in jRange) {
-                val cell = getCellOrNull(i, j)
-                if (cell != null)
-                    list += cell
+        val (firstI, lastI) = iRange.first to iRange.last
+        if (firstI <= lastI)
+            for (i in firstI..lastI) {
+                val (firstJ, lastJ) = jRange.first to jRange.last
+                if (firstJ <= lastJ)
+                    for (j in firstJ..lastJ) {
+                        val cell = getCellOrNull(i, j)
+                        if (cell != null)
+                            list += cell
+                    }
+                else
+                    for (j in firstJ downTo lastJ) {
+                        val cell = getCellOrNull(i, j)
+                        if (cell != null)
+                            list += cell
+                    }
             }
-        }
+        else
+            for (i in firstI downTo lastI) {
+                val (firstJ, lastJ) = jRange.first to jRange.last
+                if (firstJ <= lastJ)
+                    for (j in firstJ..lastJ) {
+                        val cell = getCellOrNull(i, j)
+                        if (cell != null)
+                            list += cell
+                    }
+                else
+                    for (j in firstJ downTo lastJ) {
+                        val cell = getCellOrNull(i, j)
+                        if (cell != null)
+                            list += cell
+                    }
+            }
         return list
     }
 
