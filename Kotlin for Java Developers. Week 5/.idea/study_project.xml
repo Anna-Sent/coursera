@@ -356,19 +356,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="480" />
+                                      <option name="length" value="26" />
+                                      <option name="offset" value="546" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/gameOfFifteen/GameOfFifteenHelper.kt" />
                                 <option name="text" value="package games.gameOfFifteen&#10;&#10;/*&#10; * This function should return the parity of the permutation.&#10; * true - the permutation is even&#10; * false - the permutation is odd&#10; * https://en.wikipedia.org/wiki/Parity_of_a_permutation&#10;&#10; * If the game of fifteen is started with the wrong parity, you can't get the correct result&#10; *   (numbers sorted in the right order, empty cell at last).&#10; * Thus the initial permutation should be correct.&#10; */&#10;fun isEven(permutation: List&lt;Int&gt;): Boolean {&#10;    TODO()&#10;}" />
                                 <option name="trackChanges" value="true" />
