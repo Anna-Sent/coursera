@@ -86,7 +86,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="90" />
+                                      <option name="offset" value="3237" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -108,7 +108,7 @@
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="149" />
+                                      <option name="offset" value="3296" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -119,7 +119,7 @@
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/board/BoardImpl.kt" />
                                 <option name="text" value="package board&#10;&#10;import board.Direction.*&#10;&#10;fun createSquareBoard(width: Int): SquareBoard = TODO()&#10;fun &lt;T&gt; createGameBoard(width: Int): GameBoard&lt;T&gt; = TODO()&#10;&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -242,19 +242,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="730" />
+                                      <option name="length" value="355" />
+                                      <option name="offset" value="726" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/game2048/Game2048Helper.kt" />
                                 <option name="text" value="package games.game2048&#10;&#10;/*&#10; * This function moves all the non-null elements to the beginning of the list&#10; * (by removing nulls) and merges equal elements.&#10; * The parameter 'merge' specifies the way how to merge equal elements:&#10; * it returns a new element that should be present in the resulting list&#10; * instead of two merged elements.&#10; *&#10; * If the function 'merge(&quot;a&quot;)' returns &quot;aa&quot;,&#10; * then the function 'moveAndMergeEqual' transforms the input in the following way:&#10; *   a, a, b -&gt; aa, b&#10; *   a, null -&gt; a&#10; *   b, null, a, a -&gt; b, aa&#10; *   a, a, null, a -&gt; aa, a&#10; *   a, null, a, a -&gt; aa, a&#10; *&#10; * You can find more examples in 'TestGame2048Helper'.&#10;*/&#10;fun &lt;T : Any&gt; List&lt;T?&gt;.moveAndMergeEqual(merge: (T) -&gt; T): List&lt;T&gt; =&#10;        TODO()&#10;&#10;" />
                                 <option name="trackChanges" value="true" />
