@@ -318,19 +318,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="385" />
+                                      <option name="length" value="2183" />
+                                      <option name="offset" value="333" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/gameOfFifteen/GameOfFifteen.kt" />
                                 <option name="text" value="package games.gameOfFifteen&#10;&#10;import board.Direction&#10;import board.GameBoard&#10;import board.createGameBoard&#10;import games.game.Game&#10;&#10;/*&#10; * Implement the Game of Fifteen (https://en.wikipedia.org/wiki/15_puzzle).&#10; * When you finish, you can play the game by executing 'PlayGameOfFifteen'.&#10; */&#10;fun newGameOfFifteen(initializer: GameOfFifteenInitializer = RandomGameInitializer()): Game =&#10;    TODO()&#10;&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -394,19 +394,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="576" />
+                                      <option name="length" value="329" />
+                                      <option name="offset" value="587" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/gameOfFifteen/GameOfFifteenInitializer.kt" />
                                 <option name="text" value="package games.gameOfFifteen&#10;&#10;interface GameOfFifteenInitializer {&#10;    /*&#10;     * Even permutation of numbers 1..15&#10;     * used to initialized the first 15 cells on a board.&#10;     * The last cell is empty.&#10;     */&#10;    val initialPermutation: List&lt;Int&gt;&#10;}&#10;&#10;class RandomGameInitializer : GameOfFifteenInitializer {&#10;    /*&#10;     * Generate a random permutation from 1 to 15.&#10;     * `shuffled()` function might be helpful.&#10;     * If the permutation is not even, make it even (for instance,&#10;     * by swapping two numbers).&#10;     */&#10;    override val initialPermutation by lazy {&#10;        TODO()&#10;    }&#10;}&#10;&#10;" />
                                 <option name="trackChanges" value="true" />

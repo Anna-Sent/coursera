@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b4f9564-ad87-4b7c-971e-0329e6890ed4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Games/Task/Games-Task_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Games/Task/Games-Task_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Games/Task/Games-Task_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Games/Task/Games-Task_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -43,13 +38,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="418">
-                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+                <MainEditorState relative-caret-position="1234">
+                  <caret line="76" selection-start-line="76" selection-end-line="76" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/ui/PlayGame.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="459">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -57,12 +65,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenHelper.kt">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/swing/JFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2533">
+              <caret line="187" column="11" selection-start-line="187" selection-start-column="11" selection-end-line="187" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/ui/PlayGame2048.kt">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="-1564">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                <MainEditorState relative-caret-position="374">
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/ui/PlayGameOfFifteen.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="357">
+                  <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#18#83#0" expanded="true" />
+                  </folding>
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -74,34 +107,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="323">
-                  <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="153">
-                  <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenInitializer.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="68">
-                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                <MainEditorState relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -113,10 +120,19 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="68">
-                  <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+                <MainEditorState relative-caret-position="174">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
                 </MainEditorState>
               </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -129,6 +145,7 @@
       <find>moveAndMergeEqual</find>
       <find>eq</find>
       <find>main()</find>
+      <find>filterinde</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,6 +159,8 @@
         <option value="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048.kt" />
         <option value="$PROJECT_DIR$/Games/Task/src/board/BoardImpl.kt" />
         <option value="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt" />
+        <option value="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt" />
+        <option value="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt" />
       </list>
     </option>
   </component>
@@ -305,23 +324,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGameOfFifteenHelper">
-    <configuration name="TestGame2048Helper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in Games-Task_test">
+    <configuration name="All in Games-Task_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Games-Task_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="games.game2048.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="games.game2048" />
-      <option name="MAIN_CLASS_NAME" value="games.game2048.TestGame2048Helper" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGameOfFifteenHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGameOfFifteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Games-Task_test" />
       <extension name="coverage">
         <pattern>
@@ -330,35 +342,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="games.gameOfFifteen" />
-      <option name="MAIN_CLASS_NAME" value="games.gameOfFifteen.TestGameOfFifteenHelper" />
+      <option name="MAIN_CLASS_NAME" value="games.gameOfFifteen.TestGameOfFifteen" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="games.game2048 in Games-Task_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGameOfFifteen.testMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Games-Task_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="games.game2048.*" />
+          <option name="PATTERN" value="games.gameOfFifteen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="games.game2048" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="games.gameOfFifteen.GameOfFifteenHelperKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Games-Task_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="games.gameOfFifteen.GameOfFifteenHelperKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="games.gameOfFifteen" />
+      <option name="MAIN_CLASS_NAME" value="games.gameOfFifteen.TestGameOfFifteen" />
+      <option name="METHOD_NAME" value="testMoves" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,13 +377,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="games.ui.PlayGameOfFifteenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Games-Task_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="games.ui.PlayGameOfFifteenKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestGameOfFifteenHelper" />
-        <item itemvalue="Kotlin.games.gameOfFifteen.GameOfFifteenHelperKt" />
-        <item itemvalue="JUnit.TestGame2048Helper" />
+        <item itemvalue="JUnit.All in Games-Task_test" />
+        <item itemvalue="Kotlin.games.ui.PlayGameOfFifteenKt" />
         <item itemvalue="Kotlin.games.ui.PlayGame2048Kt" />
-        <item itemvalue="JUnit.games.game2048 in Games-Task_test" />
+        <item itemvalue="JUnit.TestGameOfFifteen" />
+        <item itemvalue="JUnit.TestGameOfFifteen.testMoves" />
       </list>
     </recent_temporary>
   </component>
@@ -400,36 +414,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGame2048 - 2019.05.17 at 19h 01m 31s.xml">
-      <configuration name="TestGame2048" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen - 2019.05.18 at 01h 51m 25s.xml">
+      <configuration name="TestGameOfFifteen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGame2048 - 2019.05.17 at 19h 01m 39s.xml">
-      <configuration name="TestGame2048" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen - 2019.05.18 at 01h 51m 44s.xml">
+      <configuration name="TestGameOfFifteen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGame2048Helper - 2019.05.17 at 19h 01m 44s.xml">
-      <configuration name="TestGame2048Helper" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen - 2019.05.18 at 01h 52m 26s.xml">
+      <configuration name="TestGameOfFifteen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGame2048Initializer - 2019.05.17 at 19h 01m 48s.xml">
-      <configuration name="TestGame2048Initializer" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen_testMoves - 2019.05.18 at 01h 53m 45s.xml">
+      <configuration name="TestGameOfFifteen.testMoves" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMoveValues - 2019.05.17 at 19h 01m 53s.xml">
-      <configuration name="TestMoveValues" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen - 2019.05.18 at 01h 54m 32s.xml">
+      <configuration name="TestGameOfFifteen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="games_game2048_in_Games-Task_test - 2019.05.17 at 19h 01m 57s.xml">
-      <configuration name="games.game2048 in Games-Task_test" configurationId="JUnit" />
+    <history-entry file="TestGameOfFifteen - 2019.05.18 at 01h 54m 50s.xml">
+      <configuration name="TestGameOfFifteen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="games_board_in_Games-Task_test - 2019.05.17 at 19h 02m 05s.xml">
-      <configuration name="games.board in Games-Task_test" configurationId="JUnit" />
+    <history-entry file="All_in_Games-Task_test - 2019.05.18 at 01h 57m 42s.xml">
+      <configuration name="All in Games-Task_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="games_gameOfFifteen_in_Games-Task_test - 2019.05.17 at 19h 02m 16s.xml">
-      <configuration name="games.gameOfFifteen in Games-Task_test" configurationId="JUnit" />
+    <history-entry file="Tests_in_'Games-Task_test' - 2019.05.18 at 01h 57m 44s.xml">
+      <configuration name="Tests in 'Games-Task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGame2048Helper - 2019.05.17 at 21h 33m 06s.xml">
-      <configuration name="TestGame2048Helper" configurationId="JUnit" />
+    <history-entry file="All_in_Games-Task_test - 2019.05.18 at 01h 57m 55s.xml">
+      <configuration name="All in Games-Task_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGameOfFifteenHelper - 2019.05.17 at 21h 33m 25s.xml">
-      <configuration name="TestGameOfFifteenHelper" configurationId="JUnit" />
+    <history-entry file="Tests_in_'Games-Task_test' - 2019.05.18 at 01h 58m 00s.xml">
+      <configuration name="Tests in 'Games-Task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -444,11 +467,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -459,7 +482,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Task" order="4" visible="true" weight="0.32928804" />
+      <window_info active="true" anchor="right" id="Task" order="4" visible="true" weight="0.2540453" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -494,30 +517,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Games/Task/test/games/game2048/TestMoveValuesInRowOrColumn.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="68">
               <caret line="7" selection-start-line="6" selection-end-line="7" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/board/BoardImpl.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="-1343">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -563,17 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/board/Board.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="425">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048Initializer.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -607,11 +601,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/ui/PlayGame.kt">
+    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/game2048/TestGame2048Helper.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="-1031" />
+            <MainEditorState relative-caret-position="85">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenHelper.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="68">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="403">
+              <caret line="28" selection-start-line="25" selection-end-line="28" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenInitializer.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="68">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/board/Board.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/game/Game.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/board/BoardImpl.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="-289">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/958c401b129f64de74af4b11a0894693edfa168d/kotlin-stdlib-common-1.3.31-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteen.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="174">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="1234">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
@@ -632,84 +741,28 @@
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="357">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="e#18#83#0" expanded="true" />
+              </folding>
             </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/game2048/TestGame2048Helper.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="85">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </MainEditorState>
-          </EduEditorState>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2533">
+          <caret line="187" column="11" selection-start-line="187" selection-start-column="11" selection-end-line="187" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenHelper.kt">
+    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/ui/PlayGame.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="-1564">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="323">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="153">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteenInitializer.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="68">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/test/games/gameOfFifteen/TestGameOfFifteen.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="68">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="418">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <MainEditorState relative-caret-position="459">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </MainEditorState>
           </EduEditorState>
         </state>
