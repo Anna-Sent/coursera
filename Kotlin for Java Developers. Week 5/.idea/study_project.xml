@@ -242,8 +242,8 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="355" />
-                                      <option name="offset" value="726" />
+                                      <option name="length" value="345" />
+                                      <option name="offset" value="781" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
@@ -280,19 +280,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="820" />
+                                      <option name="length" value="336" />
+                                      <option name="offset" value="838" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="" />
-                                      <option name="selected" value="false" />
+                                      <option name="selected" value="true" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/games/game2048/Game2048Initializer.kt" />
                                 <option name="text" value="package games.game2048&#10;&#10;import board.Cell&#10;import board.GameBoard&#10;import kotlin.random.Random&#10;&#10;interface Game2048Initializer&lt;T&gt; {&#10;    /*&#10;     * Specifies the cell and the value that should be added to this cell.&#10;     */&#10;    fun nextValue(board: GameBoard&lt;T?&gt;): Pair&lt;Cell, T&gt;?&#10;}&#10;&#10;object RandomGame2048Initializer: Game2048Initializer&lt;Int&gt; {&#10;    private fun generateRandomStartValue(): Int =&#10;            if (Random.nextInt(10) == 9) 4 else 2&#10;&#10;    /*&#10;     * Generate a random value and a random cell among free cells&#10;     * that given value should be added to.&#10;     * The value should be 2 for 90% cases, and 4 for the rest of the cases.&#10;     * Use the 'generateRandomStartValue' function above.&#10;     * If the board is full return null.&#10;     */&#10;    override fun nextValue(board: GameBoard&lt;Int?&gt;): Pair&lt;Cell, Int&gt;? {&#10;        TODO()&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
